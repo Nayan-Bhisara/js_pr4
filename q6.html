@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        //take nothing return nothing
+        // function num(){
+
+        //     var a = parseInt(prompt("Enter your A :- "));
+        //     var b = parseInt(prompt("Enter your B :- "));
+        //     a = a + b;
+        //     b = a - b;
+        //     a = a - b;
+
+        //     document.write(`<h2>A value is :- ${a}</h2>`);
+        //     document.write(`<h2>B value is :- ${b}</h2>`);
+
+        // }
+        // num();
+
+        //Take something return nothing
+        // function num(a,b){
+            
+        //     a = a + b;
+        //     b = a - b;
+        //     a = a - b;
+
+        //     document.write(`<h2>A value is :- ${a}</h2>`);
+        //     document.write(`<h2>B value is :- ${b}</h2>`);
+
+        // }
+        // var a = parseInt(prompt("Enter your A :- "));
+        // var b = parseInt(prompt("Enter your B :- "));
+        // num(a,b);
+
+        //take nothing return something
+        // function tnrs1(){
+        //     var a = parseInt(prompt("Enter number A :- "));
+        //     return a;
+        // }
+        // function tnrs2(){
+        //     var b = parseInt(prompt("Enter number B :- "));
+        //     return b;
+        // }
+        // var ans1;
+        // ans1 = tnrs1();
+        // var ans2;
+        // ans2 = tnrs2();
+        // ans1 = ans1+ans2;
+        // ans2 = ans1-ans2;
+        // ans1 = ans1-ans2;
+
+        // document.write(`<h2>A value is :- ${ans1}</h2>`);
+        // document.write(`<h2>B value is :- ${ans2}</h2>`);
+
+        //take something return something
+        function tsrs1(a,b){
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            return a;
+        }
+        function tsrs2(b,a){
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            return b;
+        }
+        var a = parseInt(prompt("Enter number A :- "));
+        var b = parseInt(prompt("Enter number B :- "));
+        tsrs1(a,b);
+        tsrs2(a,b);
+        var ans1 = tsrs1(a,b);
+        var ans2 = tsrs2(b,a);
+        document.write(`<h2>A value is :- ${ans1}</h2>`);
+        document.write(`<h2>B value is :- ${ans2}</h2>`);
+
+    </script>
+
+</body>
+</html>

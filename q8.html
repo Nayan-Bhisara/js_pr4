@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        function calculator(){
+
+            var a = parseInt(prompt("Enter your A :- "));
+            var b = parseInt(prompt("Enter your B :- "));
+            var choice = prompt("Enter your choice :- + - * / ");
+
+            switch(choice){
+                case '+':
+                    document.write(`<h2>${a} + ${b} = ${a+b}</h2>`);
+                    break;
+                case '-':
+                    document.write(`<h2>${a} - ${b} = ${a-b}</h2>`);
+                    break;
+                case '*':
+                    document.write(`<h2>${a} * ${b} = ${a*b}</h2>`);
+                    break;
+                case '/':
+                    document.write(`<h2>${a} / ${b} = ${a/b}</h2>`);
+                    break;
+                default:
+                    document.write(`<h2>invalid choice....`);
+            }
+
+        }
+        calculator();
+
+    </script>
+
+</body>
+</html>
